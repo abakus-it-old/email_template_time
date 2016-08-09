@@ -7,12 +7,16 @@
     'category': 'Email Template',
     'description': 
     """
+    Time filter in emails
+
     This module adds an extra time filter in email templates
 
     Example: ${ '%m/%d/%Y'|time() }
+
+    This module has been developed by Bernard DELHEZ @ AbAKUS it-solutions.
     """,
     'depends': [
-        'email_template',
+        'mail',
     ],
     'data': [
     ],

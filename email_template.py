@@ -4,7 +4,7 @@ from pytz import timezone
 import pytz
 from jinja2 import contextfilter
 
-from openerp.addons.email_template import email_template
+from openerp.addons.mail import mail_template
 
 @contextfilter
 def time(context, dtformat, tz=None):
@@ -16,6 +16,6 @@ def time(context, dtformat, tz=None):
     
     return now.strftime(dtformat)
 
-email_template.mako_template_env.filters.update(
+mail_template.mako_template_env.filters.update(
     time=time,
 )
