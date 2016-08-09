@@ -4,7 +4,7 @@ from pytz import timezone
 import pytz
 from jinja2 import contextfilter
 
-from openerp.addons.mail import mail_template
+from openerp.addons.mail.models import mail_template
 
 @contextfilter
 def time(context, dtformat, tz=None):
