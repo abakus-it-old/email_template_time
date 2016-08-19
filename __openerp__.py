@@ -1,6 +1,6 @@
 {
     'name': 'Email Template Time',
-    'version': '0.1',
+    'version': '9.0.1.0',
     'author': "Bernard DELHEZ, AbAKUS it-solutions SARL",
     'website': "http://www.abakusitsolutions.eu",
 
